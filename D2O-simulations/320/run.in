@@ -1,0 +1,18 @@
+# Set up NEP potential
+potential nep.txt
+
+# time step for 1. fs
+time_step 1.0
+
+# Initialize velocity at 230K
+velocity 320
+
+# Pressure units are in GPa
+
+# Production run
+#
+ensemble npt_scr 320 320 1000  1.013e-4  0.25 10000
+dump_thermo 100
+dump_restart 1000000
+# compute_msd
+run         10000000

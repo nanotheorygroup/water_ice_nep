@@ -1,0 +1,14 @@
+version 3
+type 2 H O
+cutoff 8.0 6.0
+n_max 8 8 
+basis_size 8 8
+l_max 4 2 1
+lambda_e 1.0
+lambda_f 1.0
+lambda_v 0.0
+lambda_1 0.05
+lambda_2 0.05
+neuron 50
+batch        25
+generation   200000
